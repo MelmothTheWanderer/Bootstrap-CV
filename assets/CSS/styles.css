@@ -61,9 +61,24 @@ header {
     color:white;
 }
 
+/* This is to get rid of the default gap between the nav list items */
+.list-inline-item:not(:last-child) {
+    margin:0;
+}
+
+
+/* According the instructional video , this is a CSS "hack" that is used to get rid of gaps in an inline ul elelment within bootstap . At least I think that is what it was getting at */
+
+.menu-container {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+}
+
 
 /* ------------------------------------------------HEADING END*/
-
 
 
 
