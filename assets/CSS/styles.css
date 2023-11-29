@@ -22,6 +22,11 @@
     background-color: #525252
 }
 
+.bg-color-three-reasons {
+    background-color: white;
+
+}
+
 /* ----------------------------------------------COLOURS END*/
 
 /*-----------------------------------------------SPECIAL PADDING/MARGIN/TEXT */
@@ -43,6 +48,11 @@ h1,h2,h3,h4 {
 .inline-block {
     display: inline-block;
 }
+
+.row-table {
+    display:table;
+}
+
 /*-----------------------------------------------SPECIAL PADDING/MARGIN/TEXT ENDING */
 
 /* ------------------------------------------------HEADING */
