@@ -49,8 +49,24 @@ h1,h2,h3,h4 {
     display: inline-block;
 }
 
+/* Below is a utility class that will make the contents of the element behave like a table */
+
 .row-table {
     display:table;
+}
+
+/* The corresponding styling for the "table cell" referred to in the class above. In other words , the child elements of the table*/
+
+.section-column {
+    display:table-cell;
+    padding:0 30px 30px;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif ; 
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*-----------------------------------------------SPECIAL PADDING/MARGIN/TEXT ENDING */
