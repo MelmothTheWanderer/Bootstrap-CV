@@ -84,9 +84,12 @@
     </header>    
     
     <section class="container-fluid">
-        
-        <div class="row row-table">
-            <!--The class "section-column" below signifies that thhis div is a "table cell" and will apply uniform height ? -->
+        <!--The class "row-table" below, is a custom utility class . All it does is set the display to "table"-->
+        <div class="row">
+            <div class="col-md-4 bg-color-personal-info section-column">
+
+            </div>
+            <!--The class "section-column" is a custom utility class that does with the one above . It sets the display to "table-cell" The reason that we are doing this , is that we get an even height on all elements in this "table"-->
           <div class="col-md-8 bg-color-three-reasons section-column">
                 <div class="row">
                     <div class="col">
@@ -95,8 +98,55 @@
                         </h3>
                     </div>
                 </div>
+                <div class="row">
+
+                    <!--Reason 1-->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading">
+                                    What do I do ? 
+                                </h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, vel!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Reason 2-->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading">
+                                    How do I do it ? 
+                                </h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, vel!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Reason 3-->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading">
+                                    Why hire me?
+                                </h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, vel!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
           </div>
         </div>
+
+
         
     </section>
     <!--The class "container-fluid" makes the element stretch to the edges of the screen. I think :S . I'm pretty sure that is what it does .-->
